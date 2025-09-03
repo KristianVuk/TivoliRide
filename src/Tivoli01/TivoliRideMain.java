@@ -12,6 +12,13 @@ public class TivoliRideMain {
         this.rideHeight = rideHeight;
     }
 
+    public String getRideName() {
+        return this.rideName;
+    }
+
+    public int rideHeight() {
+        return this.rideHeight;
+    };
     //jeg laver metode, der tjekker om højde
 
 
