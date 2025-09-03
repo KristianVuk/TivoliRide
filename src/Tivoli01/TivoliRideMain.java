@@ -7,7 +7,7 @@ public class TivoliRideMain {
 
     //jeg laver en konstruktør til input af data
 
-    public TivoliRideMain {
+    public TivoliRideMain(String rideName, int rideHeight) {
         this.rideName = rideName;
         this.rideHeight = rideHeight;
     }
