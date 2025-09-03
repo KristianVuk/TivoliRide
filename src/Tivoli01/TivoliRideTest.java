@@ -1,5 +1,5 @@
 package Tivoli01;
-
+import java.util.Scanner;
 public class TivoliRideTest {
     public static void main(String[] args) {
         CreateRide();
@@ -10,11 +10,18 @@ public class TivoliRideTest {
         TestHeight(r1);
     }
     public static void TestHeight(TivoliRideMain r) {
-        int height = 160;
-        if (height >= r.getRideHeight()){
-            System.out.println("Du er høj nok");
-        } else {
-            System.out.println("Gå hjem igen");
+        int height;
+        //int height = 160;
+        while (1 != 0) {
+            Scanner in = new Scanner(System.in);
+            System.out.print("Skriv din højde i cm: ");
+            height = in.nextInt();
+            if (height >= r.getRideHeight()){
+                System.out.println("Du er høj nok");
+            } else {
+                System.out.println("Gå hjem igen");
+            }
         }
+
     }
 }
