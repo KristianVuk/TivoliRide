@@ -12,6 +12,10 @@ public class TivoliRideMain {
         this.rideHeight = rideHeight;
     }
 
+    //jeg laver metode, der tjekker om højde
+
+
+
 }
 
 
