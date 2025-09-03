@@ -1,4 +1,5 @@
 package Tivoli01;
 
-public class TivoliRideTest {
+public class TivoliRideTest { //Hej .
+
 }
